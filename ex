@@ -3269,7 +3269,7 @@ function Library:CreateWindow(cfg)
 		iSub.Size = UDim2.new(0.5, 0, 0, math.floor(16 * SC))
 		iSub.Font = Enum.Font.GothamMedium
 		iSub.TextSize = math.floor(12 * SC)
-		iSub.Text = cfg.Subtitle or "by skg & n3x"
+		iSub.Text = cfg.Subtitle or "by ressio & apxdev"
 		iSub.TextColor3 = C.Sub
 		iSub.TextTransparency = 1
 		iSub.ZIndex = 106
