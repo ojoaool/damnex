@@ -2771,7 +2771,7 @@ function Library:CreateWindow(cfg)
 				lbl.Font = Enum.Font.GothamBlack
 				local fSize = math.floor((10 + math.random() * 6) * SC)
 				lbl.TextSize = fSize
-				lbl.Text = (math.random() > 0.4) and "EH" or "EXPENSIVE HUB"
+				lbl.Text = (math.random() > 0.4) and "ANGEL" or "ANGEL WARE"
 				lbl.TextColor3 = C.Text
 				lbl.TextTransparency = 0.88 + math.random() * 0.08
 				lbl.ZIndex = 1
@@ -3474,7 +3474,7 @@ function Library:CreateWindow(cfg)
 	logoText.TextSize = FONT_TITLE
 	logoText.RichText = true
 	logoText.Text = string.format(
-		'<font color="rgb(%d,%d,%d)">Expensive</font> <font color="rgb(%d,%d,%d)">Hub</font>',
+		'<font color="rgb(255,255,255)">Angel</font> <font color="rgb(30,30,30)">Hub</font>',
 		math.floor(C.Text.R * 255), math.floor(C.Text.G * 255), math.floor(C.Text.B * 255),
 		math.floor(C.Dim.R * 255), math.floor(C.Dim.G * 255), math.floor(C.Dim.B * 255)
 	)
@@ -6739,7 +6739,7 @@ function Library:CreateWindow(cfg)
 		end
 		if logoText and logoText.Parent then
 			logoText.Text = string.format(
-				'<font color="rgb(%d,%d,%d)">Expensive</font> <font color="rgb(%d,%d,%d)">Hub</font>',
+				'<font color="rgb(255,255,255)">Angel</font> <font color="rgb(30,30,30)">Hub</font>>',
 				math.floor(newC.Text.R*255), math.floor(newC.Text.G*255), math.floor(newC.Text.B*255),
 				math.floor(newC.Sub.R*255), math.floor(newC.Sub.G*255), math.floor(newC.Sub.B*255))
 		end
