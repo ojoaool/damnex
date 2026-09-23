@@ -2794,7 +2794,7 @@ function Library:CreateWindow(cfg)
 		bigEH.Size = UDim2.new(1, 0, 0.5, 0)
 		bigEH.Font = Enum.Font.GothamBlack
 		bigEH.TextSize = math.floor(140 * SC)
-		bigEH.Text = "EH"
+		bigEH.Text = ""
 		bigEH.TextColor3 = C.Text
 		bigEH.TextTransparency = 0.96
 		bigEH.ZIndex = 1
@@ -3474,7 +3474,7 @@ function Library:CreateWindow(cfg)
 	logoText.TextSize = FONT_TITLE
 	logoText.RichText = true
 	logoText.Text = string.format(
-		'<font color="rgb(255,255,255)">Angel</font> <font color="rgb(30,30,30)">Hub</font>',
+		'<font color="rgb(255,255,255)">Angel</font> <font color="rgb(30,30,30)">Ware</font>',
 		math.floor(C.Text.R * 255), math.floor(C.Text.G * 255), math.floor(C.Text.B * 255),
 		math.floor(C.Dim.R * 255), math.floor(C.Dim.G * 255), math.floor(C.Dim.B * 255)
 	)
@@ -6739,7 +6739,7 @@ function Library:CreateWindow(cfg)
 		end
 		if logoText and logoText.Parent then
 			logoText.Text = string.format(
-				'<font color="rgb(255,255,255)">Angel</font> <font color="rgb(30,30,30)">Hub</font>>',
+				'<font color="rgb(255,255,255)">Angel</font> <font color="rgb(30,30,30)">Ware</font>>',
 				math.floor(newC.Text.R*255), math.floor(newC.Text.G*255), math.floor(newC.Text.B*255),
 				math.floor(newC.Sub.R*255), math.floor(newC.Sub.G*255), math.floor(newC.Sub.B*255))
 		end
