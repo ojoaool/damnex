@@ -2601,8 +2601,8 @@ end
 
 function Library:CreateWindow(cfg)
 	cfg = cfg or {}
-	local title = cfg.Title or "Expensive Hub"
-	local introOn = cfg.Intro ~= false
+	local title = cfg.Title or "Angel Ware"
+	local introOn = cfg.Intro ~= true
 	local keybind = cfg.Keybind or Enum.KeyCode.RightControl
 	SND_ON = cfg.Sounds ~= false
 	SC = getScale()
