@@ -89,62 +89,62 @@ local function poolRemove(id)
 end
 
 local C = {
-	GradA = Color3.fromRGB(18, 18, 24),
-	GradB = Color3.fromRGB(22, 22, 30),
-	GradC = Color3.fromRGB(16, 16, 22),
-	GradD = Color3.fromRGB(12, 12, 18),
-	Wave1 = Color3.fromRGB(25, 25, 35),
-	Wave2 = Color3.fromRGB(20, 20, 28),
-	Wave3 = Color3.fromRGB(22, 22, 30),
-	BG = Color3.fromRGB(14, 14, 20),
-	BGAlt = Color3.fromRGB(18, 18, 26),
-	Surface = Color3.fromRGB(24, 24, 32),
-	SurfaceAlt = Color3.fromRGB(28, 28, 38),
-	Border = Color3.fromRGB(42, 42, 55),
-	BorderLit = Color3.fromRGB(58, 58, 75),
-	Text = Color3.fromRGB(225, 225, 235),
-	Sub = Color3.fromRGB(145, 145, 165),
-	Dim = Color3.fromRGB(85, 85, 105),
-	Accent = Color3.fromRGB(180, 180, 195),
-	AccentLit = Color3.fromRGB(200, 200, 215),
-	AccentSub = Color3.fromRGB(32, 32, 44),
-	AccentDark = Color3.fromRGB(140, 140, 160),
-	Purple = Color3.fromRGB(120, 105, 180),
-	PurpleLit = Color3.fromRGB(145, 130, 200),
-	PurpleSub = Color3.fromRGB(28, 26, 40),
-	PurpleDeep = Color3.fromRGB(100, 85, 160),
-	Peach = Color3.fromRGB(160, 130, 115),
-	PeachLit = Color3.fromRGB(180, 155, 140),
-	PeachSub = Color3.fromRGB(30, 26, 24),
-	PeachDeep = Color3.fromRGB(140, 110, 95),
-	Watermelon = Color3.fromRGB(180, 80, 85),
-	ElecBlue = Color3.fromRGB(80, 130, 210),
-	Mint = Color3.fromRGB(85, 180, 130),
-	Lilac = Color3.fromRGB(140, 115, 200),
-	SoftOrange = Color3.fromRGB(200, 140, 70),
-	HotPink = Color3.fromRGB(190, 85, 130),
-	Coral = Color3.fromRGB(195, 105, 105),
-	SkyBlue = Color3.fromRGB(95, 155, 215),
-	Lavender = Color3.fromRGB(150, 130, 210),
-	Ok = Color3.fromRGB(75, 190, 130),
-	Warn = Color3.fromRGB(210, 170, 60),
-	Err = Color3.fromRGB(210, 75, 75),
-	Info = Color3.fromRGB(80, 145, 220),
-	TrackOff = Color3.fromRGB(38, 38, 50),
-	SidebarBG = Color3.fromRGB(16, 16, 22),
-	SidebarHover = Color3.fromRGB(28, 28, 38),
-	SidebarActive = Color3.fromRGB(32, 32, 44),
-	TopbarBG = Color3.fromRGB(16, 16, 22),
-	SubTabBG = Color3.fromRGB(18, 18, 26),
-	SubTabActive = Color3.fromRGB(28, 28, 38),
-	NotifBG = Color3.fromRGB(22, 22, 30),
-	ActivePanelBG = Color3.fromRGB(18, 18, 26),
-	ActiveItemBG = Color3.fromRGB(28, 28, 38),
-	ActiveItemGlow = Color3.fromRGB(45, 45, 60),
-	ClayHighlight = Color3.fromRGB(55, 55, 70),
-	ClayShadow = Color3.fromRGB(6, 6, 10),
-	ClayShadowDeep = Color3.fromRGB(3, 3, 6),
-	FooterBG = Color3.fromRGB(14, 14, 20),
+	GradA = Color3.fromRGB(18, 18, 18),
+	GradB = Color3.fromRGB(24, 24, 24),
+	GradC = Color3.fromRGB(14, 14, 14),
+	GradD = Color3.fromRGB(10, 10, 10),
+	Wave1 = Color3.fromRGB(28, 28, 28),
+	Wave2 = Color3.fromRGB(22, 22, 22),
+	Wave3 = Color3.fromRGB(25, 25, 25),
+	BG = Color3.fromRGB(12, 12, 12),
+	BGAlt = Color3.fromRGB(18, 18, 18),
+	Surface = Color3.fromRGB(26, 26, 26),
+	SurfaceAlt = Color3.fromRGB(32, 32, 32),
+	Border = Color3.fromRGB(48, 48, 48),
+	BorderLit = Color3.fromRGB(70, 70, 70),
+	Text = Color3.fromRGB(235, 235, 235),
+	Sub = Color3.fromRGB(160, 160, 160),
+	Dim = Color3.fromRGB(95, 95, 95),
+	Accent = Color3.fromRGB(220, 220, 220),
+	AccentLit = Color3.fromRGB(245, 245, 245),
+	AccentSub = Color3.fromRGB(36, 36, 36),
+	AccentDark = Color3.fromRGB(170, 170, 170),
+	Purple = Color3.fromRGB(150, 150, 150),
+	PurpleLit = Color3.fromRGB(190, 190, 190),
+	PurpleSub = Color3.fromRGB(30, 30, 30),
+	PurpleDeep = Color3.fromRGB(120, 120, 120),
+	Peach = Color3.fromRGB(150, 150, 150),
+	PeachLit = Color3.fromRGB(190, 190, 190),
+	PeachSub = Color3.fromRGB(30, 30, 30),
+	PeachDeep = Color3.fromRGB(120, 120, 120),
+	Watermelon = Color3.fromRGB(150, 150, 150),
+	ElecBlue = Color3.fromRGB(160, 160, 160),
+	Mint = Color3.fromRGB(160, 160, 160),
+	Lilac = Color3.fromRGB(150, 150, 150),
+	SoftOrange = Color3.fromRGB(170, 170, 170),
+	HotPink = Color3.fromRGB(150, 150, 150),
+	Coral = Color3.fromRGB(150, 150, 150),
+	SkyBlue = Color3.fromRGB(170, 170, 170),
+	Lavender = Color3.fromRGB(160, 160, 160),
+	Ok = Color3.fromRGB(220, 220, 220),
+	Warn = Color3.fromRGB(180, 180, 180),
+	Err = Color3.fromRGB(90, 90, 90),
+	Info = Color3.fromRGB(160, 160, 160),
+	TrackOff = Color3.fromRGB(40, 40, 40),
+	SidebarBG = Color3.fromRGB(10, 10, 10),
+	SidebarHover = Color3.fromRGB(28, 28, 28),
+	SidebarActive = Color3.fromRGB(32, 32, 32),
+	TopbarBG = Color3.fromRGB(10, 10, 10),
+	SubTabBG = Color3.fromRGB(16, 16, 16),
+	SubTabActive = Color3.fromRGB(30, 30, 30),
+	NotifBG = Color3.fromRGB(24, 24, 24),
+	ActivePanelBG = Color3.fromRGB(16, 16, 16),
+	ActiveItemBG = Color3.fromRGB(30, 30, 30),
+	ActiveItemGlow = Color3.fromRGB(48, 48, 48),
+	ClayHighlight = Color3.fromRGB(60, 60, 60),
+	ClayShadow = Color3.fromRGB(4, 4, 4),
+	ClayShadowDeep = Color3.fromRGB(2, 2, 2),
+	FooterBG = Color3.fromRGB(10, 10, 10),
 }
 
 local function lerp(a, b, t)
@@ -3170,249 +3170,109 @@ function Library:CreateWindow(cfg)
 
 	W:SetBackground(activeBG)
 
-	if introOn then
-		-- Plain Frame, NOT a CanvasGroup: CanvasGroup pre-rasterizes all children
-		-- into an offscreen buffer, which blurs text/icons (very visible fullscreen on hi-res).
-		-- All elements already fade out individually below, so the final fade only needs
-		-- to dissolve this background fill via BackgroundTransparency.
-		local intro = Instance.new("Frame")
-		intro.BackgroundTransparency = 0
-		intro.BackgroundColor3 = C.BG
-		intro.Size = UDim2.new(1, 0, 1, 0)
-		intro.ZIndex = 100
-		intro.ClipsDescendants = true
-		intro.Parent = screenGui
+if introOn then
+    local intro = Instance.new("Frame")
+    intro.BackgroundTransparency = 0
+    intro.BackgroundColor3 = C.BG
+    intro.Size = UDim2.new(1, 0, 1, 0)
+    intro.ZIndex = 100
+    intro.ClipsDescendants = true
+    intro.Parent = screenGui
 
-		local cY = 0.42
+    local termBox = Instance.new("Frame")
+    noHit(termBox)
+    termBox.AnchorPoint = Vector2.new(0.5, 0.5)
+    termBox.BackgroundColor3 = C.BGAlt
+    termBox.BackgroundTransparency = 0.15
+    termBox.Position = UDim2.new(0.5, 0, 0.46, 0)
+    termBox.Size = UDim2.new(0, math.floor(420 * SC), 0, math.floor(150 * SC))
+    termBox.ZIndex = 101
+    termBox.Parent = intro
+    corner(termBox, 10)
+    local termStroke = strokeInst(termBox, C.Border, 1, 0.3)
 
-		local glow1 = Instance.new("ImageLabel")
-		noHit(glow1)
-		glow1.BackgroundTransparency = 1
-		glow1.AnchorPoint = Vector2.new(0.5, 0.5)
-		glow1.Position = UDim2.new(0.5, 0, cY, 0)
-		glow1.Size = UDim2.new(0, 0, 0, 0)
-		glow1.Image = "rbxassetid://6031280882"
-		glow1.ImageColor3 = C.Accent
-		glow1.ImageTransparency = 1
-		glow1.ScaleType = Enum.ScaleType.Fit
-		glow1.ZIndex = 101
-		glow1.Parent = intro
+    -- barrinha de topo tipo janela de terminal, com 3 "botões"
+    local termTop = Instance.new("Frame")
+    noHit(termTop)
+    termTop.BackgroundColor3 = C.Surface
+    termTop.BackgroundTransparency = 0.2
+    termTop.Size = UDim2.new(1, 0, 0, math.floor(22 * SC))
+    termTop.ZIndex = 102
+    termTop.Parent = termBox
+    corner(termTop, 10)
+    for i = 1, 3 do
+        local dot = Instance.new("Frame")
+        noHit(dot)
+        dot.AnchorPoint = Vector2.new(0, 0.5)
+        dot.BackgroundColor3 = C.Dim
+        dot.Position = UDim2.new(0, 10 + (i - 1) * 12, 0.5, 0)
+        dot.Size = UDim2.new(0, math.floor(6 * SC), 0, math.floor(6 * SC))
+        dot.ZIndex = 103
+        dot.Parent = termTop
+        corner(dot, 99)
+    end
 
-		local orbA = Instance.new("Frame")
-		noHit(orbA)
-		orbA.BackgroundColor3 = C.Accent
-		orbA.BackgroundTransparency = 0.9
-		orbA.AnchorPoint = Vector2.new(0.5, 0.5)
-		orbA.Position = UDim2.new(0.5, 0, cY, 0)
-		orbA.Size = UDim2.new(0, 0, 0, 0)
-		orbA.ZIndex = 101
-		orbA.Parent = intro
-		corner(orbA, 999)
+    local termLabel = Instance.new("TextLabel")
+    noHit(termLabel)
+    termLabel.BackgroundTransparency = 1
+    termLabel.Position = UDim2.new(0, 14, 0, math.floor(30 * SC))
+    termLabel.Size = UDim2.new(1, -28, 1, -math.floor(40 * SC))
+    termLabel.Font = Enum.Font.Code
+    termLabel.TextSize = math.floor(13 * SC)
+    termLabel.Text = ""
+    termLabel.TextColor3 = C.Text
+    termLabel.TextXAlignment = Enum.TextXAlignment.Left
+    termLabel.TextYAlignment = Enum.TextYAlignment.Top
+    termLabel.TextWrapped = true
+    termLabel.LineHeight = 1.35
+    termLabel.ZIndex = 102
+    termLabel.Parent = termBox
 
-		local orbB = Instance.new("Frame")
-		noHit(orbB)
-		orbB.BackgroundColor3 = lerpColor(C.Accent, Color3.new(1,1,1), 0.3)
-		orbB.BackgroundTransparency = 0.94
-		orbB.AnchorPoint = Vector2.new(0.5, 0.5)
-		orbB.Position = UDim2.new(0.5, 0, cY, 0)
-		orbB.Size = UDim2.new(0, 0, 0, 0)
-		orbB.ZIndex = 101
-		orbB.Parent = intro
-		corner(orbB, 999)
+    local pName = "guest"
+    pcall(function() pName = Player.DisplayName end)
 
-		local ring = Instance.new("Frame")
-		noHit(ring)
-		ring.BackgroundTransparency = 1
-		ring.AnchorPoint = Vector2.new(0.5, 0.5)
-		ring.Position = UDim2.new(0.5, 0, cY, 0)
-		ring.Size = UDim2.new(0, 0, 0, 0)
-		ring.ZIndex = 102
-		ring.Parent = intro
-		corner(ring, 999)
-		strokeInst(ring, C.Accent, 1.5, 1)
+    local bootLines = {
+        "> " .. (title or "hub") .. " boot sequence",
+        "> mounting sidebar & tabs... ok",
+        "> config manager... ok",
+        "> theme: monochrome",
+        "> user: " .. pName,
+        "> bind: [" .. keybind.Name .. "] toggle menu",
+        "> " .. (title or "hub") .. " ready",
+    }
 
-		local iconSz = math.floor(56 * SC)
-		local iIcon = Instance.new("ImageLabel")
-		noHit(iIcon)
-		iIcon.BackgroundTransparency = 1
-		iIcon.AnchorPoint = Vector2.new(0.5, 0.5)
-		iIcon.Position = UDim2.new(0.5, 0, cY, 0)
-		iIcon.Size = UDim2.new(0, 0, 0, 0)
-		iIcon.Image = getIconAsset("flare") or ""
-		iIcon.ImageColor3 = C.Accent
-		iIcon.ImageTransparency = 1
-		iIcon.ScaleType = Enum.ScaleType.Fit
-		iIcon.ZIndex = 106
-		iIcon.Rotation = -180
-		iIcon.Parent = intro
+    task.spawn(function()
+        task.wait(0.15)
+        local shown = ""
+        for li, line in ipairs(bootLines) do
+            for ci = 1, #line do
+                termLabel.Text = shown .. string.sub(line, 1, ci)
+                if ci % 3 == 0 then playSound(Sounds.typing, 0.02, 1.3 + math.random() * 0.5) end
+                task.wait(0.009)
+            end
+            shown = shown .. line .. "\n"
+            task.wait(li == #bootLines and 0.25 or 0.08)
+        end
 
-		local iTitle = Instance.new("TextLabel")
-		noHit(iTitle)
-		iTitle.BackgroundTransparency = 1
-		iTitle.AnchorPoint = Vector2.new(0.5, 0)
-		iTitle.Position = UDim2.new(0.5, 0, cY + 0.1, 0)
-		iTitle.Size = UDim2.new(0.8, 0, 0, math.floor(36 * SC))
-		iTitle.Font = Enum.Font.GothamBlack
-		iTitle.TextSize = math.floor(30 * SC)
-		iTitle.RichText = true
-		iTitle.Text = ""
-		iTitle.TextColor3 = C.Text
-		iTitle.TextTransparency = 1
-		iTitle.ZIndex = 106
-		iTitle.Parent = intro
+        for i = 1, 4 do
+            termLabel.Text = shown .. (i % 2 == 1 and "_" or "")
+            task.wait(0.15)
+        end
 
-		local iSub = Instance.new("TextLabel")
-		noHit(iSub)
-		iSub.BackgroundTransparency = 1
-		iSub.AnchorPoint = Vector2.new(0.5, 0)
-		iSub.Position = UDim2.new(0.5, 0, cY + 0.19, 0)
-		iSub.Size = UDim2.new(0.5, 0, 0, math.floor(16 * SC))
-		iSub.Font = Enum.Font.GothamMedium
-		iSub.TextSize = math.floor(12 * SC)
-		iSub.Text = cfg.Subtitle or "by ressio & apxdev"
-		iSub.TextColor3 = C.Sub
-		iSub.TextTransparency = 1
-		iSub.ZIndex = 106
-		iSub.Parent = intro
-
-		local barBg = Instance.new("Frame")
-		noHit(barBg)
-		barBg.AnchorPoint = Vector2.new(0.5, 0)
-		barBg.BackgroundColor3 = C.Surface
-		barBg.BackgroundTransparency = 1
-		barBg.Position = UDim2.new(0.5, 0, cY + 0.26, 0)
-		barBg.Size = UDim2.new(0.18, 0, 0, math.floor(3 * SC))
-		barBg.ZIndex = 105
-		barBg.ClipsDescendants = true
-		barBg.Parent = intro
-		corner(barBg, 2)
-		local barFill = Instance.new("Frame")
-		noHit(barFill)
-		barFill.BackgroundColor3 = C.Accent
-		barFill.Size = UDim2.new(0, 0, 1, 0)
-		barFill.ZIndex = 106
-		barFill.Parent = barBg
-		corner(barFill, 2)
-
-		local dots = {}
-		for i = 1, 10 do
-			local d = Instance.new("Frame")
-			noHit(d)
-			d.AnchorPoint = Vector2.new(0.5, 0.5)
-			d.BackgroundColor3 = lerpColor(C.Accent, Color3.new(1,1,1), math.random() * 0.3)
-			d.BackgroundTransparency = 1
-			local sz = math.floor((2 + math.random() * 3) * SC)
-			d.Size = UDim2.new(0, sz, 0, sz)
-			d.Position = UDim2.new(0.5, 0, cY, 0)
-			d.ZIndex = 104
-			d.Parent = intro
-			corner(d, sz)
-			dots[i] = d
-		end
-
-		local line1 = Instance.new("Frame")
-		noHit(line1)
-		line1.AnchorPoint = Vector2.new(0.5, 0.5)
-		line1.BackgroundColor3 = C.Accent
-		line1.BackgroundTransparency = 1
-		line1.Position = UDim2.new(0.5, 0, cY, 0)
-		line1.Size = UDim2.new(0, 0, 0, 1)
-		line1.ZIndex = 102
-		line1.Parent = intro
-
-		task.spawn(function()
-			task.wait(0.05)
-
-			-- Build-up: everything overlaps and snaps in fast instead of the old
-			-- ~1.2s-per-element crawl. Ring spins as it grows for a bit of energy.
-			tw(orbA, 0.55, {Size = UDim2.new(0, math.floor(280*SC), 0, math.floor(280*SC)), BackgroundTransparency = 0.85}, Enum.EasingStyle.Quint)
-			tw(orbB, 0.6, {Size = UDim2.new(0, math.floor(200*SC), 0, math.floor(200*SC)), BackgroundTransparency = 0.9}, Enum.EasingStyle.Quint)
-			tw(line1, 0.4, {Size = UDim2.new(0, math.floor(120*SC), 0, 1), BackgroundTransparency = 0.7}, Enum.EasingStyle.Quint)
-
-			tw(ring, 0.45, {Size = UDim2.new(0, math.floor(85*SC), 0, math.floor(85*SC)), Rotation = 90}, Enum.EasingStyle.Quint)
-			for _, s in pairs(ring:GetChildren()) do
-				if s:IsA("UIStroke") then tw(s, 0.45, {Transparency = 0.25}, Enum.EasingStyle.Quint) end
-			end
-
-			task.wait(0.12)
-			tw(glow1, 0.4, {Size = UDim2.new(0, math.floor(120*SC), 0, math.floor(120*SC)), ImageTransparency = 0.7}, Enum.EasingStyle.Quint)
-			tw(iIcon, 0.45, {Size = UDim2.new(0, iconSz, 0, iconSz), ImageTransparency = 0, Rotation = 0}, Enum.EasingStyle.Back)
-			playSound(Sounds.expand, 0.12, 1.15)
-
-			for i, d in ipairs(dots) do
-				local ang = (i / #dots) * math.pi * 2 + math.random() * 0.3
-				local dist = math.floor((55 + math.random() * 35) * SC)
-				local tx = 0.5 + math.cos(ang) * dist / 800
-				local ty = cY + math.sin(ang) * dist / 600
-				task.delay(i * 0.012, function()
-					tw(d, 0.35, {Position = UDim2.new(tx, 0, ty, 0), BackgroundTransparency = 0.2}, Enum.EasingStyle.Quint)
-				end)
-				task.delay(0.28 + i * 0.02, function()
-					tw(d, 0.28, {BackgroundTransparency = 1, Size = UDim2.new(0, 0, 0, 0)}, Enum.EasingStyle.Quint)
-				end)
-			end
-
-			task.wait(0.33)
-			-- Icon pop + an expanding accent shockwave ring for a punchier hit.
-			tw(iIcon, 0.13, {Size = UDim2.new(0, math.floor(iconSz*1.18), 0, math.floor(iconSz*1.18))}, Enum.EasingStyle.Quint)
-			local shock = Instance.new("Frame")
-			noHit(shock)
-			shock.AnchorPoint = Vector2.new(0.5, 0.5)
-			shock.BackgroundTransparency = 1
-			shock.Position = UDim2.new(0.5, 0, cY, 0)
-			shock.Size = UDim2.new(0, math.floor(60*SC), 0, math.floor(60*SC))
-			shock.ZIndex = 103
-			shock.Parent = intro
-			corner(shock, 999)
-			local shockStroke = strokeInst(shock, C.Accent, 2, 0.2)
-			tw(shock, 0.5, {Size = UDim2.new(0, math.floor(230*SC), 0, math.floor(230*SC))}, Enum.EasingStyle.Quint)
-			tw(shockStroke, 0.5, {Transparency = 1, Thickness = 0}, Enum.EasingStyle.Quint)
-			task.delay(0.55, function() if shock and shock.Parent then shock:Destroy() end end)
-			task.wait(0.11)
-			tw(iIcon, 0.18, {Size = UDim2.new(0, iconSz, 0, iconSz)}, Enum.EasingStyle.Back)
-
-			task.wait(0.06)
-			local fullTitle = title or "Expensive Hub"
-			iTitle.TextTransparency = 0
-			for ci = 1, #fullTitle do
-				iTitle.Text = string.sub(fullTitle, 1, ci)
-				task.wait(0.018)
-			end
-
-			task.wait(0.05)
-			tw(iSub, 0.3, {TextTransparency = 0}, Enum.EasingStyle.Quint)
-			tw(line1, 0.35, {Size = UDim2.new(0, math.floor(200*SC), 0, 1), BackgroundTransparency = 0.85}, Enum.EasingStyle.Quint)
-
-			task.wait(0.08)
-			tw(barBg, 0.2, {BackgroundTransparency = 0.5})
-			tw(barFill, 0.5, {Size = UDim2.new(1, 0, 1, 0)}, Enum.EasingStyle.Quint)
-
-			task.wait(0.5)
-
-			-- Snappy outro: elements burst outward and dissolve.
-			for _, s in pairs(ring:GetChildren()) do
-				if s:IsA("UIStroke") then tw(s, 0.22, {Transparency = 1}) end
-			end
-			tw(ring, 0.3, {Size = UDim2.new(0, math.floor(200*SC), 0, math.floor(200*SC)), Rotation = 200}, Enum.EasingStyle.Quint)
-			tw(iIcon, 0.3, {ImageTransparency = 1, Size = UDim2.new(0, math.floor(iconSz*0.4), 0, math.floor(iconSz*0.4)), Rotation = 120}, Enum.EasingStyle.Quint)
-			tw(glow1, 0.3, {ImageTransparency = 1, Size = UDim2.new(0, math.floor(210*SC), 0, math.floor(210*SC))}, Enum.EasingStyle.Quint)
-			tw(iTitle, 0.25, {TextTransparency = 1, Position = UDim2.new(0.5, 0, cY + 0.06, 0)}, Enum.EasingStyle.Quint)
-			tw(iSub, 0.2, {TextTransparency = 1}, Enum.EasingStyle.Quint)
-			tw(barBg, 0.2, {BackgroundTransparency = 1})
-			tw(barFill, 0.2, {BackgroundTransparency = 1})
-			tw(line1, 0.25, {BackgroundTransparency = 1})
-			tw(orbA, 0.35, {Size = UDim2.new(0, math.floor(520*SC), 0, math.floor(520*SC)), BackgroundTransparency = 1}, Enum.EasingStyle.Quint)
-			tw(orbB, 0.35, {BackgroundTransparency = 1}, Enum.EasingStyle.Quint)
-
-			task.wait(0.22)
-			tw(intro, 0.28, {BackgroundTransparency = 1}, Enum.EasingStyle.Quint)
-			task.wait(0.32)
-			if intro and intro.Parent then intro:Destroy() end
-		end)
-	end
+        playSound(Sounds.expand, 0.1, 1.1)
+        tw(termStroke, 0.25, {Transparency = 1})
+        tw(termBox, 0.3, {BackgroundTransparency = 1})
+        tw(termLabel, 0.25, {TextTransparency = 1})
+        tw(termTop, 0.25, {BackgroundTransparency = 1})
+        task.wait(0.15)
+        tw(intro, 0.3, {BackgroundTransparency = 1}, Enum.EasingStyle.Quint)
+        task.wait(0.35)
+        if intro and intro.Parent then intro:Destroy() end
+    end)
+end
 
 	task.spawn(function()
-		if introOn then task.wait(1.45) end
+		if introOn then task.wait(3.7) end
 		if blurEnabled then showBlur() end
 		tw(main, 0.6, {Size = UDim2.new(0, WW, 0, WH), GroupTransparency = 0}, Enum.EasingStyle.Back)
 		playSound(Sounds.expand, 0.15, 0.9)
@@ -3484,7 +3344,7 @@ function Library:CreateWindow(cfg)
 	logoText.Parent = topbar
 
 	task.spawn(function()
-		if introOn then task.wait(1.8) else task.wait(0.8) end
+		if introOn then task.wait(4.0) else task.wait(0.8) end
 		tw(logoIcon, 0.5, {Rotation = 720, Position = UDim2.new(0, 27, 0.5, 0)}, Enum.EasingStyle.Quint)
 		task.wait(0.4)
 		tw(logoIcon, 0.3, {Rotation = 0}, Enum.EasingStyle.Back)
