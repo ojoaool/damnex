@@ -3200,11 +3200,16 @@ if introOn then
     termTop.ZIndex = 102
     termTop.Parent = termBox
     corner(termTop, 10)
+    local termDotColors = {
+        Color3.fromRGB(210, 80, 80),   -- vermelho
+        Color3.fromRGB(210, 180, 70),  -- amarelo
+        Color3.fromRGB(90, 180, 100),  -- verde
+    }
     for i = 1, 3 do
         local dot = Instance.new("Frame")
         noHit(dot)
         dot.AnchorPoint = Vector2.new(0, 0.5)
-        dot.BackgroundColor3 = C.Dim
+        dot.BackgroundColor3 = termDotColors[i]
         dot.Position = UDim2.new(0, 10 + (i - 1) * 12, 0.5, 0)
         dot.Size = UDim2.new(0, math.floor(6 * SC), 0, math.floor(6 * SC))
         dot.ZIndex = 103
